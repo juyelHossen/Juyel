@@ -128,12 +128,7 @@
 .portfolio{
     padding: 100px 0;
 }
-.card-wrap{
-    max-width: 100%;
-}
-.card{
-    border: none !important;
-}
+
 
 @media (min-width: 768px) {
     .hero{
@@ -149,17 +144,7 @@
     .work-prosses{
         gap: 9rem;
     }
-
-    .col-md-4{
-        width: 32.7% !important;
-    }
-
-    /* card */
-    /* .card{
-        width: 300px;
-    }
-     */
-    
+  
     
 }
 
