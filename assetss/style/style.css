@@ -1,177 +1,248 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-
-*{
-    font-family: "Inter", sans-serif !important;
+* {
+  font-family: "Inter", sans-serif !important;
 }
 
-
-.cstmBtn{
-    background-color: #A53DFF;
-    padding: 10px 15px;
-    color: #fff !important;
-    border-radius: 15px;
-    text-decoration: none;
+:root {
+  --p-color: #a53dff;
 }
 
-.headerBtn{
-    background-color: #A53DFF;
+.cstmBtn {
+  background-color: #a53dff;
+  padding: 10px 15px;
+  color: #fff !important;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
-.p-color{
-    color: #A53DFF;
+.headerBtn {
+  background-color: #a53dff;
 }
 
-
- /* navbar */
-
-
-.navbar{
-    backdrop-filter: blur(10px);
+.p-color {
+  color: #a53dff;
 }
-.nav-link{
-    color: #000 !important;
-    font-weight: 500;
+.cstmBg {
+  background-color: #a53dff;
+}
+.inner-item-flex-1 > * {
+  flex: 1;
 }
 
+/* random CSS end */
+/* navbar */
+
+.navbar {
+  backdrop-filter: blur(10px);
+}
+.nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
 
 /* hero section  */
 
-.heroArea{
-    position: relative;
+.heroArea {
+  position: relative;
 }
 
 /* bg area  */
-.absolute-image{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -10;
+.absolute-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -10;
 }
-.hero-right img{
-    margin: 20px auto;
+.hero-right img {
+  margin: 20px auto;
 }
 
-.heroBg{
-    position: absolute;
-    z-index: -10;
+.heroBg {
+  position: absolute;
+  z-index: -10;
 }
-.heroBg:nth-child(1){
-    top: 0;
-    right: 0;
+.heroBg:nth-child(1) {
+  top: 0;
+  right: 0;
 }
-.heroBg:nth-child(2){
-    top: 30%;
-    right: 0;
+.heroBg:nth-child(2) {
+  top: 30%;
+  right: 0;
 }
-.heroBg:nth-child(3){
-    left: 0;
-    bottom: 0;
+.heroBg:nth-child(3) {
+  left: 0;
+  bottom: 0;
 }
 
 /* hero image */
-.hero-img{
-    width: 100%;
+.hero-img {
+  width: 100%;
 }
 
 /* experience */
 
-.counter-item{
-    background-color: #EDD8FF;
+.counter-item {
+  background-color: #edd8ff;
 }
 
 /* hero social link  */
-.social-link-hero{
-    width: fit-content;
-    border-radius: 15px;
-    position: absolute;
-    bottom: -80px;
-    left: 50%;
-    transform: translate(-50%, -50%)
+.social-link-hero {
+  width: fit-content;
+  border-radius: 15px;
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.bi-linkedin{
-    padding: 7px;
-    background-color: #A53DFF;
-    color: #fff !important;
-    border-radius: 5px;
+.bi-linkedin {
+  padding: 7px;
+  background-color: #a53dff;
+  color: #fff !important;
+  border-radius: 5px;
 }
 
 /* intro */
-.life-intro{
-    margin-top: 130px;
-    border-radius: 10px;
-}
-.intro-img{
-    border-radius: 15px;
+
+.intro-img {
+  border-radius: 15px;
 }
 /* intro button */
-.cstmBtn-secondary{
-    padding: 10px 15px;
-    color: #A53DFF;
-    border: 1px solid #A53DFF;
-    border-radius: 15px;
-    text-decoration: none;
-    transition: .3s;
+.cstmBtn-secondary {
+  padding: 10px 15px;
+  color: #a53dff;
+  border: 1px solid #a53dff;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: 0.3s;
 }
-
-
-/* WORK PROSSESS AREA  */
-.work-prosses-area{
-    margin: 100px 0;
-}
-
 
 /* PORTFOLIO AREA */
-.portfolio{
-    padding: 100px 0;
+.portfolio {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.card {
+  box-sizing: border-box !important;
+}
+
+/* What i do  */
+.IdoBox:first-child {
+  border-left: 2px solid #a53dff;
+}
+
+/* contact form  */
+
+.input-group > input,
+textarea {
+  border: none;
+  padding: 7px 0px 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  outline: none;
+  border: 1px solid var(--p-color);
+}
+
+.input-group textarea {
+  height: 7rem;
+}
+.input-group textarea:focus {
+  outline: none;
+  border: 1px solid var(--p-color);
+}
+/* contact form end  */
+
+/* footer section start  */
+.footer-area{
+    height: 200px;
+}
+
+.footerbg{
+    height: 200px;
+    width: 100%;
+    z-index: -20;
+    top: -50%;
+    left: 0;
+}
+
+.footer-list{
+    list-style: none;
+
+}
+.footer-list li a{
+    color: #fff;
+    text-decoration: none;
 }
 
 
 @media (min-width: 768px) {
-    .hero{
-        /* margin-top: 90px; */
-        padding-top: 100px;
-        gap: 140px;
-    }
-    .hero-left{
-        width: 750px;
-    }
-
-    /* work-prosses */
-    .work-prosses{
-        gap: 9rem;
-    }
-  
-    
+  .hero {
+    padding-top: 100px;
+    gap: 140px;
+  }
+  /* hero life intro */
+  .life-intro {
+    margin-top: 130px;
+    border-radius: 10px;
+  }
+  /* portfolio */
+  .portfolio-header {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  /* contact textarea */
+  .input-group textarea {
+    height: 12rem;
+  }
+  .contact-container {
+    border-radius: 15px;
+  }
 }
-
 
 @media (max-width: 991px) {
-    .cstmBtn{
-        text-align: center;
-    }
+  .cstmBtn {
+    text-align: center;
+  }
 
-    /* intro right  */
-    .intro-right{
-        margin-top: 100px;
-    }
+  /* intro right  */
+  .intro-right {
+    margin-top: 100px;
+  }
+  /* custom button  */
+  .cstmBtn {
+    font-size: 1.25rem;
+  }
 }
 
-
 @media (min-width: 991px) {
-    .absolute-image{
-        height: 1270px;
+  .absolute-image {
+    height: 1270px;
+  }
+  /* navbar list items border  */
+  .border-bottom {
+    border: none !important;
+  }
+  /* intro image */
+  .intro-img {
+    max-width: 450px !important;
+  }
+}
 
-    }
-    /* navbar list items border  */
-    .border-bottom{
-        border: none !important;
-    }
-    /* intro image */
-    .intro-img{
-        max-width: 450px !important;
-    }
+@media (max-width: 768px) {
+  .intro-left {
+    width: 95%;
+    margin: auto;
+  }
 }
