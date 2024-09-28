@@ -235,9 +235,6 @@ textarea {
     border: none !important;
   }
   /* intro image */
-  .intro-img {
-    max-width: 450px !important;
-  }
 }
 
 @media (max-width: 768px) {
