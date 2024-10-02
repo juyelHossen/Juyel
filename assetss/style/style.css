@@ -133,10 +133,6 @@
   box-sizing: border-box !important;
 }
 
-/* What i do  */
-.IdoBox:first-child {
-  border-left: 2px solid #a53dff;
-}
 
 /* contact form  */
 
@@ -187,6 +183,16 @@ textarea {
 }
 
 
+/* education section  */
+.edu-card{
+  border-left: 3px solid var(--p-color);
+  border-right: 3px solid var(--p-color);
+}
+.edu-left{
+  width: 100%;
+}
+
+
 @media (min-width: 768px) {
   .hero {
     padding-top: 100px;
@@ -208,6 +214,13 @@ textarea {
   }
   .contact-container {
     border-radius: 15px;
+  }
+  /* education section */
+  .edu-left{
+    width: 50%;
+  }
+  .edu-card{
+    border-right: 0;
   }
 }
 
